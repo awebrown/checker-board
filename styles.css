@@ -1,0 +1,42 @@
+#gameBoard {
+  width: 800px;
+  height: 100%;
+  margin: auto;
+  border: 1px solid;
+}
+
+#gameBoard .blackSpace {
+  width: 100px;
+  height: 100px;
+  background-color: #000;
+  display: inline-block;
+}
+#gameBoard .whiteSpace {
+  height: 100px;
+  width: 100px;
+  background-color: #fff;
+  display: inline-block;
+}
+
+.redGamePiece {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: red;
+  margin: 22px;
+}
+
+.blackGamePiece {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #aaa;
+  margin: 22px;
+}
+
+.droptarget {
+position: relative;
+width: 100px;
+height: 100px;
+background-color: transparent;
+}
